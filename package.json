@@ -1,0 +1,12 @@
+{
+  "name": "eslint-plugin-nested",
+  "version": "0.0.0",
+  "description": "eslint plugin nested",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:fengzilong/eslint-plugin-nested.git",
+    "type": "git"
+  },
+  "author": "mo <feng_zilong@163.com>",
+  "license": "MIT"
+}
