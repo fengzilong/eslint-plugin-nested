@@ -1,8 +1,8 @@
 module.exports = {
 	rules: {
-		'nested-if': require( './rules/nested-if' ),
+		'max-nested-if': require( './rules/max-nested-if' ),
 	},
 	rulesConfig: {
-		'nested-if': 'error',
+		'max-nested-if': [ 'warning', 2 ],
 	}
 };
