@@ -4,7 +4,7 @@ module.exports = function( context ) {
 	return {
 		IfStatement( node ) {
 			const ifStatements = context.getAncestors().filter( isIfStatement );
-			if ( ifStatements.length > MAX_IFSTATEMENT_TIMES ) {
+			if ( ifStatements.length >= MAX_IFSTATEMENT_TIMES ) {
 				context.report(
 					node,
 					`Don't nest if statement more than ${ MAX_IFSTATEMENT_TIMES } times`
