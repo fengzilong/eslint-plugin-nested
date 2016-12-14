@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-nested",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "eslint plugin nested",
   "main": "index.js",
   "repository": {
