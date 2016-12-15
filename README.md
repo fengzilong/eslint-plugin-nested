@@ -22,5 +22,6 @@ Add following `eslintConfig` into your package.json or eslintrc file
 }
 ```
 
-![editor](/media/editor.png)
-![cmd](/media/cmd.png)
+<img src="/media/editor.png" alt="editor" width="400">
+
+<img src="/media/cmd.png" alt="cmd" width="500">
